@@ -11,10 +11,10 @@ export const About = () => {
 
                 <div className='flex flex-row gap-5 justify-center items-center'>
                     <div className='flex flex-col gap-5'>
-                        <img src="./about1.jpg" className='object-contain w-[270px]' alt="Image of a building" />
-                        <img src="./about3.jpg" className='object-contain w-[270px]' alt="Image of a building" />
+                        <img src="/about1.jpg" className='object-contain w-[270px]' alt="Image of a building" />
+                        <img src="/about3.jpg" className='object-contain w-[270px]' alt="Image of a building" />
                     </div>
-                    <img src="./about2.jpg" className='object-contain w-1/2' alt="Image of a building" />
+                    <img src="/about2.jpg" className='object-contain w-1/2' alt="Image of a building" />
 
                 </div>
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import { ProjectCard } from '../microcomponents'
+import { ProjectsData } from '../constants'
 
 export const Projects = () => {
     return (
@@ -8,15 +9,15 @@ export const Projects = () => {
             <ul className='flex flex-col w-full gap-5'>
                 <li className='flex md:flex-row flex-col gap-5 w-'>
 
-                    <ProjectCard projectLink={'/'} projectImage={'./project2.jpg'} />
-                    <ProjectCard projectLink={'/'} projectImage={'./project3.jpg'} />
+                    <ProjectCard projectLink={'/project/2'} projectImage={'/project2.jpg'} />
+                    <ProjectCard projectLink={'/project/3'} projectImage={'/project3.jpg'} />
                 </li>
                 <li className='flex md:flex-row flex-col gap-5'>
 
-                    <ProjectCard projectLink={'/'} projectImage={'./project1.jpg'} />
+                    <ProjectCard projectLink={'/project/1'} projectImage={'/project1.jpg'} />
 
-                    <ProjectCard projectLink={'/'} projectImage={'./project4.jpg'} />
-                    <ProjectCard projectLink={'/'} projectImage={'./project5.jpg'} />
+                    <ProjectCard projectLink={'/project/4'} projectImage={'/project4.jpg'} />
+                    <ProjectCard projectLink={'/project/5'} projectImage={'/project5.jpg'} />
                 </li>
 
             </ul>

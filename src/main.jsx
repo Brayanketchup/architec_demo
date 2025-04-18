@@ -9,6 +9,5 @@ root.render(
     <Navbar />
     <App />
     <Footer/>
-    
   </React.StrictMode>
 );

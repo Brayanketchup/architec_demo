@@ -20,7 +20,7 @@ export const Contact = () => {
         </div>
 
         <div className='md:flex justify-center hidden'>
-          <img src="./contact.jpg" className='object-contain' alt="" />
+          <img src="/contact.jpg" className='object-contain' alt="" />
         </div>
       </div>
       

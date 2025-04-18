@@ -47,10 +47,8 @@ export const Navbar = () => {
 
         <ul className='flex flex-row gap-5 font-lightn'>
           <li><a href="/">MAIN</a></li>
-          <li><a href="/">GALLERY</a></li>
-          <li><a href="/">PROJECTS</a></li>
-          <li><a href="/">CERTIFICATIONS</a></li>
-          <li><a href="/">CONTACTS</a></li>
+          <li><a href="/projects">PROJECTS</a></li>
+          <li><a href="/contact">CONTACTS</a></li>
         </ul>
       </nav>
 
@@ -71,10 +69,8 @@ export const Navbar = () => {
           
           <ul className={`flex flex-col gap-y-5 justify-center text-end h-full w-fit bg-white pr-10 pl-5 text-black text-2xl font-light`}> 
             <li><a href="/">MAIN</a></li>
-            <li><a href="/">GALLERY</a></li>
-            <li><a href="/">PROJECTS</a></li>
-            <li><a href="/">CERTIFICATIONS</a></li>
-            <li><a href="/">CONTACTS</a></li>
+            <li><a href="/projects">PROJECTS</a></li>
+            <li><a href="/contact">CONTACTS</a></li>
           </ul>
         </div>
 
