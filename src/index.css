@@ -7,3 +7,11 @@
     font-family: "Roboto";
     scroll-behavior: smooth;
   }
+
+
+.newComponent{
+  @apply w-full lg:px-48 md:px-24 px-16 py-14;
+}
+.componentHeader{
+  @apply text-5xl text-gray-400 text-wrap mb-4 font-normal
+}

@@ -26,7 +26,7 @@ export const Hero = () => {
 
 
   return (
-    <section id='Hero' className='w-full h[100vh] p-10 py-24'>
+    <section id='Hero' className='newComponent'>
 
       <div className='flex md:flex-row flex-col gap-y-4 items-center w-full justify-around'>
 

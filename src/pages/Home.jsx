@@ -1,5 +1,5 @@
 import React from 'react';
-import { HeroComponent, AboutComponent } from '../components';
+import { HeroComponent, AboutComponent, ProjectsComponent, ContactComponent } from '../components';
 
 
 export const Home = () => {
@@ -7,6 +7,8 @@ export const Home = () => {
     <main className=''>
       <HeroComponent/>
       <AboutComponent/>
+      <ProjectsComponent/>
+      <ContactComponent/>
     </main>
   )
 }
