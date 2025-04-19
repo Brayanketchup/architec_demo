@@ -7,8 +7,6 @@ export const Projects = () => {
     <main className='newComponent min-h-[100vh]'>
       <PageTittle
       name={'Our Projects'}
-      // top={'Our'}
-      // bottom={'Projects'}
       />
 
       <div className='flex flex-col gap-5'>

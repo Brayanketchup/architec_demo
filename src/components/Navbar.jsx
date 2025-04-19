@@ -13,8 +13,8 @@ export const Navbar = () => {
   useEffect(() => {
     const checkScreenSize = () => {
       if (window.innerWidth > 1024) {
-        setHamburgerIsOpen(false); // Set isOpen to false if desktop
-        window.removeEventListener('resize', checkScreenSize); // Remove event listener
+        setHamburgerIsOpen(false); 
+        window.removeEventListener('resize', checkScreenSize); 
       }
     };
     // if isOpen add the event listener
@@ -31,7 +31,7 @@ export const Navbar = () => {
         window.removeEventListener('resize', checkScreenSize);
       }
     };
-  }, [hamburgerIsOpen]); // use effect will run when isOpen change
+  }, [hamburgerIsOpen]); 
 
 
 

@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Home, About, Contact, Projects, Project } from './pages'; 
+import { Home, About, Contact, Projects, Project, NotFound } from './pages'; 
 
 
 
@@ -14,7 +14,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Projects />} />
         <Route path='/project/:id' element={<Project />} />
-
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
   )
