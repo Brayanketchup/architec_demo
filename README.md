@@ -1,72 +1,34 @@
-# 🏛️ architec_demo
+# architec_demo
 
-A sleek frontend showcase for architecture design, built with **React**, **Vite**, and **Tailwind CSS**. Check out the live preview here: https://web-architec-demo.vercel.app/
+A portfolio website for an architecture studio. It gives a design firm a fast, image-first site to present its projects, its story and a way to get in touch.
 
----
+**Live demo:** https://web-architec-demo.vercel.app
 
-## 🚀 Key Features
+## Stack
 
-- **Modern stack**: Utilizes Vite for blazing-fast bundling, React for UI, and Tailwind CSS for utility-first styling.
-- **Responsive design**: Optimized for all screen sizes — from mobile tiles to large desktop showcases.
-- **Modular components**: Clean and scalable component architecture—hero sections, project cards, navigation, etc.
-- **Fast rendering**: Highly optimized for performance and minimal bundle size.
-- **Easy to customize**: Tailwind enables on-the-fly design tweaks and style theme adjustments.
+- React 19 (JavaScript, JSX)
+- React Router 7
+- Tailwind CSS 4
+- Vite 6
+- Deployed on Vercel
 
----
+## Features
 
-## 📷 Live Demo
+- **Project gallery** with a detail page for every project (`/project/:id`), all driven by one data file.
+- **Multi-page navigation** (Home, About, Projects, Contact) with client-side routing and a 404 page.
+- **Contact form** page.
+- **Responsive, image-first layout** that works from phone to wide desktop.
+- **Reusable components** (project cards, detail cards, page titles) so new projects need data, not new code.
 
-Experience the interface in action:
-**https://web-architec-demo.vercel.app/**
+## Run locally
 
----
-
-## ⚙️ Tech Stack
-
-| Layer       | Technology                |
-|-------------|---------------------------|
-| **Front‑end** | React + Vite               |
-| **Styling**   | Tailwind CSS              |
-| **Assets**    | Static images & icons     |
-| **Build & dev** | Vite dev server & bundler |
-
----
-
-## 🔧 Getting Started
-
-1. **Clone the repo**  
-   ```bash
-   git clone https://github.com/Brayanketchup/architec_demo.git
-   cd architec_demo
- 
-   
----
-
-## 🧰 Installation & Setup
-
-1. **Clone the repo**  
-   ```bash
-   git clone https://github.com/Brayanketchup/ecommerce_demo.git
-   cd ecommerce_demo
-
-   ## Getting Started
-
-First, Install dependencies server:
+Requirements: Node.js 18+.
 
 ```bash
+git clone https://github.com/Brayanketchup/architec_demo.git
+cd architec_demo
 npm install
-# or
-yarn install
-```
-Then, run the development server:
-
-```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
+Then open http://localhost:5173. Build for production with `npm run build`.
